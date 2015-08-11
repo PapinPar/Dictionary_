@@ -39,7 +39,7 @@ import retrofit.client.Response;
 public class MainActivity extends AppCompatActivity
 {
     final String LOG_TAG = "myLogs";
-    final Uri dictionary_CONTENT_URI = Uri.parse("content://papin.test.com.MyCP/dictionary");
+    final Uri dictionary_CONTENT_URI = Uri.parse("content://papin.test.com.MyCPW/dictionary");
     final String d_word = "word";
     final String d_trans = "translate";
     String TRANSLATION,realTranslation,prevWord,forShow,FromList;
